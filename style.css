@@ -5,9 +5,19 @@ body{
     margin: 20px;
 }
 
+/*Heading styling*/
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+
 /* Text properties section */
-.text-section {
+.text-section p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: justify;
 }
 
 .box-model {
