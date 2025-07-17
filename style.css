@@ -58,3 +58,35 @@ h1{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+a:link{
+    color: cadetblue;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: orange;
+}
+
+a:active{
+    color: darkgreen;
+}
+
+input:valid{
+    border-style: solid;
+    border-color: green;
+    border-radius: 5px;
+    border-width: 2px;
+    background-color: aqua;
+}
+
+input:invalid{
+    border-style: solid;
+    border-color: rgb(245, 17, 17);
+    border-radius: 5px;
+    border-width: 2px;
+    background-color: rgb(184, 201, 29);
+}
